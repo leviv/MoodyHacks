@@ -1,0 +1,109 @@
+/* ===============================
+	Custom Sass
+	By: Levi Villarreal
+	For: RoundUp
+	Completed: IN PROGRESS
+	=============================== */
+.tooltip 
+	z-index: 999090999909
+	display: block
+
+.notification
+	position: absolute
+	top: 120px
+	left: -500px
+	background: rgba(255, 255, 255, 0.46)
+	border-radius: 20px
+	padding: 20px
+	text-align: left
+	color: red !important
+
+.dash-content
+	background: linear-gradient($primary-color, $secondary-color)
+	height: calc(100% - 70px)
+	display: flex
+	justify-content: center
+	align-items: center
+	iframe
+		.navbar-form
+			padding-left: 50px
+		width: 0px
+	
+.circle-container 
+	+on-circle(6)
+	margin: 5em auto 0
+	border: solid 10px $primary-color
+	img  
+		display: block
+		max-width: 100%
+		border-radius: 50%
+		filter: grayscale(100%)
+		border: solid 2px $third-color
+		+transition(all, .5s)
+		cursor: pointer
+		&:hover
+			filter: grayscale(0)
+			-webkit-filter: grayscale(0)
+	.active img
+		filter: grayscale(0)
+		-webkit-filter: grayscale(0)
+	h6
+		color: #fff
+
+.circle-card
+	width: 500px
+	background: rgba(255, 255, 255, 0.46)
+	padding: 40px
+	text-align: center
+	box-shadow: 0px 0px 8px #888888
+	margin: 0 auto
+	border-radius: 20px
+	top: 50px
+
+
+.circle-card button
+	margin-top: 75px
+	padding: 5px 25px
+	background: $primary-color
+	border: 2px solid $secondary-color
+	color: #fff
+	font-size: 1.5em
+	border-radius: 40px
+	-webkit-border-radius: 40px
+	+transition(all, .5s)
+	cursor: pointer
+	&:hover
+		background: #fff
+		color: $secondary-color
+
+
+.groups
+	position: absolute
+	top: 120px
+	right: 40px
+	background: rgba(255, 255, 255, 0.46)
+	border-radius: 20px
+	padding: 20px
+	text-align: left
+	ul
+		padding: 0 !important
+		margin: 0 !important
+
+.add-group
+	position: absolute
+	bottom: 20px
+	right: 20px
+	background: rgba(255, 255, 255, 0.46)
+	border-radius: 20px
+	padding: 0px 10px
+	text-align: left
+	input
+		padding: 0px !important
+		margin: 0px !important
+	
+#profile
+	text-align: center
+	img
+		border-radius: 50%
+	ul
+		text-align: left
