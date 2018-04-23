@@ -84,18 +84,23 @@
                     </a>
                 </li><!-- nav-item -->
                 <li class="nav-item">
-                    <a href="#schedule" class="nav-two scrollLink">
-                        <h2 class="hover"><span>02.</span>Logistics</h2>
+                    <a href="#video" class="nav-two scrollLink">
+                        <h2 class="hover"><span>02.</span>Video</h2>
                     </a>
                 </li><!-- nav-item -->
                 <li class="nav-item">
-                    <a href="#faq" class="nav-three scrollLink">
-                        <h2 class="hover"><span class="">03.</span>Faq</h2>
+                    <a href="#schedule" class="nav-three scrollLink">
+                        <h2 class="hover"><span>03.</span>Logistics</h2>
                     </a>
                 </li><!-- nav-item -->
                 <li class="nav-item">
-                    <a href="#contact" class="nav-four scrollLink">
-                        <h2 class="hover"><span class="">04.</span>Contact</h2>
+                    <a href="#faq" class="nav-four scrollLink">
+                        <h2 class="hover"><span class="">04.</span>Faq</h2>
+                    </a>
+                </li><!-- nav-item -->
+                <li class="nav-item">
+                    <a href="#contact" class="nav-five scrollLink">
+                        <h2 class="hover"><span class="">05.</span>Contact</h2>
                     </a>
                 </li><!-- nav-item -->
             </ul><!-- nav-list -->
@@ -178,16 +183,16 @@
                <h2 class="section-lead">About</h2>
                 <div class="row">
                     <div class="col-sm-4">
-                        <h2>What is a Hackathon?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatibus dolore impedit accusantium odio perferendis vero ipsa provident. Harum voluptatum corrupti asperiores aliquid inventore itaque, adipisci delectus molestias neque explicabo.</p>
+                        <h2><b>Step 1:</b> <br>Assemble Your Team</h2>
+                        <p>Teams will consist of four students. If you already have your perfect team, feel free to sign up together. Otherwise, we'll match you up with people who share your interests!</p>
                     </div>
                     <div class="col-sm-4">
-                        <h2>Pick Your Poison</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatibus dolore impedit accusantium odio perferendis vero ipsa provident. Harum voluptatum corrupti asperiores aliquid inventore itaque, adipisci delectus molestias neque explicabo.</p>
+                        <h2><b>Step 2:</b> <br>Pick Your Poison</h2>
+                        <p>Choose from our list of topics or propose your own! Projects will seek to address a problem faced by society by utilizing innovation and creativity. Projects do not have to be technological in nature, but must display an effort to create something new and original.</p>
                     </div>
                     <div class="col-sm-4">
-                        <h2>Hack!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatibus dolore impedit accusantium odio perferendis vero ipsa provident. Harum voluptatum corrupti asperiores aliquid inventore itaque, adipisci delectus molestias neque explicabo.</p>
+                        <h2><b>Step 3:</b> <br>Hack!</h2>
+                        <p>Teams will have the entire weekend to plan, execute and present their ideas. Workshops and mentors will help students develop key skills to enhance their projects along with learn new skills.</p>
                     </div>
                 </div><!-- row -->
                 
@@ -212,24 +217,28 @@
                        <h3>Schedule</h3>
                         <ul>
                             <li>
-                                <h3>9:00am</h3>
+                                <h3>3:00pm</h3>
                                 <p>Hacking begins</p>
                             </li>
                             <li>
-                                <h3>10:00am</h3>
-                                <p>Hacking begins</p>
+                                <h3>7:00pm</h3>
+                                <p>Dinner is served</p>
                             </li>
                             <li>
-                                <h3>11:00pm</h3>
-                                <p>Hacking begins</p>
-                            </li>
-                            <li>
-                                <h3>9:00am</h3>
-                                <p>Hacking begins</p>
+                                <h3>10:00pm</h3>
+                                <p>Hacking concludes for the day</p>
                             </li>
                             <li>
                                 <h3>9:00am</h3>
-                                <p>Hacking begins</p>
+                                <p>Hacking resumes/breakfast</p>
+                            </li>
+                            <li>
+                                <h3>11:00am</h3>
+                                <p>Lunch is served</p>
+                            </li>
+                            <li>
+                                <h3>3:00pm</h3>
+                                <p>Awatds ceremony</p>
                             </li>
                         </ul>
                     </div>
@@ -336,7 +345,7 @@
                 <p>Help us make this a great experience!</p>
                 
                 <div class="contact-con">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceEt_qtd-wL_rD9Y4JfiOos9rm29kTsZMMw_7sRJhTjfBdbg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6rXqHjZe1XLvyMGt7hALEeeKK8M54P-wu4ab-vlW9NKZ7OQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 </div>
                 
                 <!--
