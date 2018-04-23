@@ -5,22 +5,16 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="The home page of Global High School's Webmaster project">
+        <meta name="description" content="MoodyHacks: The first ever UT journalism Hackathon!">
         <meta name="author" content="Levi Villarreal">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+       
+       
         <title>MoodyHacks</title>
 
         <!-- Bootstrap JS -->
@@ -155,8 +149,7 @@
 				<h1>MoodyHacks</h1>
 				
 				<div class="container-details">
-                   <h2>MoodyHacks 2018</h2>
-                    <img src="http://hackumbc.org/img/logo.svg" alt="">
+                    <img src="assets/img/logo.png" alt="">
                     
 				    <p>
                     <br>Sign Up to be notified when Registration opens!</p>

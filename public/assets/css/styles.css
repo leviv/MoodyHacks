@@ -424,14 +424,7 @@ i {
   box-shadow: 10px 10px 100px #868686; }
   .container-details img {
     padding: 5px;
-    width: 115px;
-    height: 115px;
-    border: 4px solid #bf5700;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%; }
+    width: 200px; }
 
 button.submit {
   background: #fff;
@@ -637,7 +630,12 @@ button.submit {
     width: 95% !important; }
 
   #video iframe {
-    height: 350px; } }
+    height: 350px; }
+
+  .bottom-footer {
+    text-align: center !important; }
+    .bottom-footer .footer-right {
+      text-align: center !important; } }
 /* ===============================
  * Sections
  * =============================== */
