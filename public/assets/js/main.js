@@ -41,41 +41,7 @@ function init() {
 
 
 
-    /////////////////
-    /// Comments ///
-    ////////////////
-    
-    var new_comment = "-";
-    
-    function returnComment() {
-        return new_comment;
-    }
 
-    $("#submit-comment").click(function(event) {
-        new_comment = $("#input-4").val();
-
-      if (new_comment.length > 0 ) {
-        submitComment();
-      } else {
-        submitCommentError();
-        // var commenter_position = ".support";
-      }
-
-      // var commenter_position = ".support";
-      event.preventDefault();
-    });
-
-
-    function submitComment() {
-      $(".submit").replaceWith('<p>Thanks!</p>');
-
-      log('Comment', 'Add Comment', new_comment);
-    }
-
-    function submitCommentError() {
-      $('.alert-error').remove();
-      $(".submit").append("<div class='alert alert-error'>* Please enter your name and a comment.</div>");
-    }
 
 
 
@@ -241,3 +207,89 @@ jQuery(document).ready(function(){
 	}
  
  }); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+    function log(action, label, comment) {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST', '../../inc/class.log.php');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                // alert('Something went wrong.  Name is now ' + xhr.responseText);
+                // xhr.send(encodeURI('log=' +logContent ));
+            }
+            else if (xhr.status !== 200) {
+                alert('Request failed.  Returned status of ' + xhr.status);
+            }
+        };
+        xhr.send(encodeURI('log=true&identifier='+'studyType'+'&user_id='+'userID'+'&action='+action+'&comment='+comment+'&label='+label+'&url='+'window.location.href'));
+    }
+
+    /////////////////
+    /// Comments ///
+    ////////////////
+    
+    var new_comment = "-";
+    
+    function returnComment() {
+        return new_comment;
+    }
+    
+    function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+    }
+
+    $("#submit-comment").click(function(event) {
+        new_comment = $("#input-4").val();
+
+      if (validateEmail(new_comment)) {
+        submitComment();
+      } else {
+        submitCommentError();
+        // var commenter_position = ".support";
+        // send to google
+
+      }
+
+      // var commenter_position = ".support";
+      event.preventDefault();
+    });
+
+
+    function submitComment() {
+      $(".sub-con").replaceWith('<p>Thanks!</p>');
+
+      log('Comment', 'Add Comment', new_comment);
+    }
+
+    function submitCommentError() {
+      $('.alert-error').remove();
+      $(".sub-con").append("<div class='alert alert-error'>* Please enter a valid email.</div>");
+    }
+
+});

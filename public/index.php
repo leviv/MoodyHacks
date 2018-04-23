@@ -171,7 +171,9 @@
                          
                     </form>
                     
-                    <button class="submit">Submit</button>
+                    <div class="sub-con">
+                        <button class="submit" id="submit-comment">Submit</button>
+                    </div>
 				</div>
 				
 				<div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>

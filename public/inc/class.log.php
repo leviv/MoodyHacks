@@ -20,9 +20,9 @@ class Log
 				$this->user_id = $user_id;
 				$this->url = $url;
 				$this->identifier = $identifier;
-				$this->ipAddress = get_the_ip();
+				$this->ipAddress = '121.21.2';
 				$this->currTime = date("m/d/Y g:i:s A",time()-18000);
-				$this->action = $action;
+				$this->action = str_replace("|", "&#124;", filter_var($action, FILTER_SANITIZE_STRING));
 				$this->comment = str_replace("|", "&#124;", filter_var($comment, FILTER_SANITIZE_STRING));
 				$this->label = $label;
 				$this->rootDir = '../';
@@ -31,15 +31,15 @@ class Log
 
 		function WriteToFile() {
 			$logPath = array(
-				$this->rootDir . "/logs/log.csv",
-            );
+							$this->rootDir . "/logs/log.csv",
+						);
 
 			//loop through log files
 			foreach($logPath as $log) {
 			  //open file with append
 				$logFile = fopen($log, 'a') or die("A problem has occurred. Please contact administrator.");
 
-                $logText = /*$this->url."|".$this->identifier . "|" .$this->user_id . "|" . $this->currTime . "|" .*/ $this->ipAddress . "," . $this->action . /*"," . $this->label . "|" . $this->comment . */"";
+				$logText = $this->comment . "\n";
 
 				//write to file
 				fwrite($logFile, $logText);
