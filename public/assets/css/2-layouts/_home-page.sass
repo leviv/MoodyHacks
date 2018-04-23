@@ -8,6 +8,19 @@ html
     padding: 0px !important
     margin: 0px !important
 
+.dumb-bar
+    width: 100%
+    height: 36px
+    padding: 5px 0
+    background: $secondary-color
+    position: absolute
+    top: 0
+    img
+        height: 100%
+        position: relative
+        float: right
+        padding-right: 20px
+    
 /* ===============================
     Hero
     =============================== */
@@ -341,7 +354,7 @@ button.submit
         .col-sm-6, .col-sm-4, .col-sm-3
             padding: 0 25px
         h2
-            color: $primary-color !important
+            color: lighten($primary-color, 20%) !important
             font-size: 23px
         
 #contact

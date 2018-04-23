@@ -280,6 +280,19 @@ html {
   padding: 0px !important;
   margin: 0px !important; }
 
+.dumb-bar {
+  width: 100%;
+  height: 36px;
+  padding: 5px 0;
+  background: #333f48;
+  position: absolute;
+  top: 0; }
+  .dumb-bar img {
+    height: 100%;
+    position: relative;
+    float: right;
+    padding-right: 20px; }
+
 /* ===============================
  * Hero
  * =============================== */
@@ -601,7 +614,7 @@ button.submit {
   #faq .row .col-sm-6, #faq .row .col-sm-4, #faq .row .col-sm-3 {
     padding: 0 25px; }
   #faq .row h2 {
-    color: #bf5700 !important;
+    color: #ff8926 !important;
     font-size: 23px; }
 
 #contact {
@@ -721,7 +734,7 @@ footer img {
     max-width: 100%;
     border-radius: 50%;
     filter: grayscale(100%);
-    border: solid 2px #f0595e;
+    border: solid 2px #B3C9DC;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
