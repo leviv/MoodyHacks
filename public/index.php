@@ -47,8 +47,6 @@
 		<script src="assets/js/ui.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4x_h55Lj0BRq5fEPUGeBg-nKuHp0Y9ZQ"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
 
         <!-- Font Awesome Icons -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>

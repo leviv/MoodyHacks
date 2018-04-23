@@ -34,6 +34,67 @@ function init() {
 
 
 
+
+
+
+
+
+
+
+    /////////////////
+    /// Comments ///
+    ////////////////
+    
+    var new_comment = "-";
+    
+    function returnComment() {
+        return new_comment;
+    }
+
+    $("#submit-comment").click(function(event) {
+        new_comment = $("#input-4").val();
+
+      if (new_comment.length > 0 ) {
+        submitComment();
+      } else {
+        submitCommentError();
+        // var commenter_position = ".support";
+      }
+
+      // var commenter_position = ".support";
+      event.preventDefault();
+    });
+
+
+    function submitComment() {
+      $(".submit").replaceWith('<p>Thanks!</p>');
+
+      log('Comment', 'Add Comment', new_comment);
+    }
+
+    function submitCommentError() {
+      $('.alert-error').remove();
+      $(".submit").append("<div class='alert alert-error'>* Please enter your name and a comment.</div>");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
     $( "a.scrollLink" ).click(function( event ) {
         event.preventDefault();
