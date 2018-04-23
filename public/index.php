@@ -154,7 +154,7 @@
 				<h1>MoodyHacks</h1>
 				
 				<div class="container-details">
-                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="The logo for MoodyHacks. The words 'Moody Hacks 2018' in burnt orange">
                     
 				    <p>
                     <br>Sign Up to be notified when Registration opens!</p>
@@ -389,7 +389,7 @@
                             <p>&copy; 2018 MoodyHacks All Rights Reserved</p>
                         </div><!-- col -->
                         <div class="col-sm-4 footer-img">
-                            <img src="assets/img/moody.png" alt="">
+                            <a href="https://moody.utexas.edu/" target="_blank"><img src="assets/img/moody.png" alt="A picture of the front of the Belo communication building"></a>
                         </div>
                         <div class="col-sm-4 footer-right">
                             <p>Made in Austin, TX</p>
