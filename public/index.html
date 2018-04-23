@@ -23,12 +23,20 @@
 		<meta name="theme-color" content="#ffffff">
         <title>MoodyHacks</title>
 
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+       
         <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-        <!-- Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- External Code -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -36,7 +44,10 @@
         <!-- External Code -->
 		<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<script src="assets/js/ui.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4x_h55Lj0BRq5fEPUGeBg-nKuHp0Y9ZQ"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 
         <!-- Font Awesome Icons -->
@@ -63,9 +74,42 @@
 
     <body class="">
     
-        <button class="c-hamburger c-hamburger--htx c-hamburger--htra">
+        <div id="dim-screen"></div>
+
+
+        <section id="nav">
+            <button class="c-hamburger c-hamburger--htx c-hamburger--htra">
                 <span>toggle menu</span>
-        </button>
+            </button>
+        </section><!-- nav -->
+
+        <section id="nav-expand">
+            <ul class="nav-list">
+                <li class="nav-item"><p>MoodyHacks</p></li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-one scrollLink">
+                        <h2 class="hover"><span class="nav-span-active">01.</span>About</h2>
+                    </a>
+                </li><!-- nav-item -->
+                <li class="nav-item">
+                    <a href="#schedule" class="nav-two scrollLink">
+                        <h2 class="hover"><span>02.</span>Logistics</h2>
+                    </a>
+                </li><!-- nav-item -->
+                <li class="nav-item">
+                    <a href="#faq" class="nav-three scrollLink">
+                        <h2 class="hover"><span class="">03.</span>Faq</h2>
+                    </a>
+                </li><!-- nav-item -->
+                <li class="nav-item">
+                    <a href="#contact" class="nav-four scrollLink">
+                        <h2 class="hover"><span class="">04.</span>Contact</h2>
+                    </a>
+                </li><!-- nav-item -->
+            </ul><!-- nav-list -->
+            
+            
+        </section><!-- nav-expand -->
 		
         <section id="hero-img">
             <div class="container-hero" id=""> 
@@ -117,7 +161,7 @@
                     <img src="http://hackumbc.org/img/logo.svg" alt="">
                     
 				    <p>
-                    <br>Sign Up to be notified when Registration opens</p>
+                    <br>Sign Up to be notified when Registration opens!</p>
 				
                     <form action="">
                         <span class="input input--hoshi">
@@ -157,6 +201,16 @@
             </div>
         </section>
         
+        <section id="video" class="section-info">
+            <div class="container">
+               <h2 class="section-lead">Video</h2>
+               
+               <iframe width="100%" height="660px" src="https://www.youtube.com/embed/ulCdoCfw-bY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </section>
+
+       
+        
         <section id="schedule" class="section-info">
             <div class="container">
                <h2 class="section-lead">Logistics</h2>
@@ -188,7 +242,7 @@
                     </div>
                     <div class="col-sm-8">
                         <h2>Location</h2>
-                        <p>Belo Building, 438 University Dr. Austin TX</p>
+                        <p>300 W Dean Keeton St, Austin, TX</p>
                         
                         <style type="text/css">
                             /* Set a size for our map container, the Google Map will take up 100% of this container */
@@ -206,113 +260,93 @@
                             Sign up for one here (it's free for small usage): 
                                 https://developers.google.com/maps/documentation/javascript/tutorial#api_key
 
-                            After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key.
-                                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
-                        -->
-                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+                            After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key. -->
+                               
+                        
 
                         <script type="text/javascript">
-                            // When the window has finished loading create our google map below
-                            google.maps.event.addDomListener(window, 'load', init);
 
-                            function init() {
-                                // Basic options for a simple Google Map
-                                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                                var mapOptions = {
-                                    // How zoomed in you want the map to start at (always required)
-                                    zoom: 11,
-
-                                    // The latitude and longitude to center the map (always required)
-                                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
-
-                                    // How you would like to style the map. 
-                                    // This is where you would paste any style found on Snazzy Maps.
-                                    styles: [{"featureType":"all","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"},{"saturation":"-100"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40},{"visibility":"off"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"off"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},{"featureType":"landscape","elementType":"geometry.stroke","stylers":[{"color":"#4d6059"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"lightness":21}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},{"featureType":"poi","elementType":"geometry.stroke","stylers":[{"color":"#4d6059"}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#7f8d89"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#2b3638"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2b3638"},{"lightness":17}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#24282b"}]},{"featureType":"water","elementType":"geometry.stroke","stylers":[{"color":"#24282b"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.icon","stylers":[{"visibility":"off"}]}]
-                                };
-
-                                // Get the HTML DOM element that will contain your map 
-                                // We are using a div with id="map" seen below in the <body>
-                                var mapElement = document.getElementById('map');
-
-                                // Create the Google Map using our element and options defined above
-                                var map = new google.maps.Map(mapElement, mapOptions);
-
-                                // Let's also add a marker while we're at it
-                                var marker = new google.maps.Marker({
-                                    position: new google.maps.LatLng(40.6700, -73.9400),
-                                    map: map,
-                                    title: 'Snazzy!'
-                                });
-                            }
                         </script>
                         <div id="map"></div>
                     </div>
                 </div>
             </div>
         </section>
-        
+                
         <section class="section-info" id="faq">
             <div class="container">
                 <h2 class="section-lead">FAQ</h2>
                 <div class="row">
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-code"></i><br>What if I don't know how to code?</h2>
+                        <p>Not all hackers code! In fact, you've found the perfect place and time to pick up new skills and concepts. There will be mentors, workshops, and tech talks to help ease you through the hackathon experience. Applications are not filtered based on experience.</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-exclamation"></i><br>This is my first hackathon. What do I do?</h2>
+                        <p>That's amazing! Welcome. Hackathons are about learning and growth as much as they are about creation. Come with nothing but a desire to learn and problem solve and our workshops and brainstorming sessions will give you everything you need to succeed!</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-utensils"></i><br>Will food and drink be provided?</h2>
+                        <p>Yes! Moody Hacks will offer breakfast and coffee on Saturday and Sunday, and dinner on Saturday night. Belo is also right across the street from some of Austin's best restaurants, so you won't go hungry!</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 4</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
-                    </div>
-                </div><!-- row -->
-                
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h2><i class="fas fa-code"></i><br>Faq 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h2><i class="fas fa-code"></i><br>Faq 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h2><i class="fas fa-code"></i><br>Faq 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fab fa-stack-exchange"></i><br>What if I can't think of a topic?</h2>
+                        <p>Don't worry! We will be hosting a brainstorming session Saturday morning where hackers can share ideas and join groups that interest them. </p>
                     </div>
                 </div><!-- row -->
                 
                 <div class="row">
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-building"></i><br>Can non-UT students participate?</h2>
+                        <p>Unfortunately, no. For security reasons, Moody Hacks will only be open to current UT students of all majors this year, but we hope to expand in the future!</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-question"></i><br>What should I bring?</h2>
+                        <p>A laptop, a charger, and a passion to problem-solve!</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-pencil-alt"></i><br>What can I create at Moody Hacks?</h2>
+                        <p>Anything! Projects can include websites, mobile apps, written stories, videos, coloring books, and much more!</p>
                     </div>
                     <div class="col-sm-3">
-                        <h2><i class="fas fa-code"></i><br>Faq 4</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore assumenda tenetur, reprehenderit ab voluptatem quam. Repellendus architecto molestiae asperiores sequi excepturi totam quod! Enim nam voluptas quo distinctio perferendis eum!</p>
+                        <h2><i class="fas fa-graduation-cap"></i><br>What will be taught at the workshops?</h2>
+                        <p>Workshops will cover a broad range of topics, from coding to graphic design to pitching and idea to writing a strong lead. Whatever you want to learn, we've got someone to teach it!</p>
+                    </div>
+                </div><!-- row -->
+                
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <h2><i class="fas fa-trophy"></i><br>What will the prizes be?</h2>
+                        <p>Our sponsors will be offering a range of prizes and opportunities to teams with creative projects.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2><i class="fas fa-money-bill-alt"></i><br>Is there a cost to sign up?</h2>
+                        <p>No! Participation in Moody Hacks is entirely free.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2><i class="fas fa-users"></i><br>Can we sign up as a team?</h2>
+                        <p>Yes! Include your team members' names when you sign up and we'll be sure to group you together.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2><i class="fas fa-thumbtack"></i><br>Can I leave and Come back?</h2>
+                        <p>Yes! After you check in, feel free to run home and check on your dog as much as you need to.</p>
                     </div>
                 </div><!-- row -->
             </div>
+            
         </section>
         
         <section class="section-info" id="contact">
             <div class="container">
-                <h2 class="section-lead">Contact</h2>
-                <p>Have any lingering questions or comments?</p>
+                <h2 class="section-lead">Get Involved</h2>
+                <p>Help us make this a great experience!</p>
+                
+                <div class="contact-con">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceEt_qtd-wL_rD9Y4JfiOos9rm29kTsZMMw_7sRJhTjfBdbg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
+                
+                <!--
                 <div class="contact-con">
                     <form action="">
                       <h3>Get in touch!</h3>
@@ -340,7 +374,7 @@
                          
                          <button class="submit">Submit</button>
                     </form>
-                </div>
+                </div> -->
             </div>
         </section>
         
@@ -349,10 +383,13 @@
                 <div class="bottom-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 footer-left">
-                            <p>&copy; 2017 GHTSA All Rights Reserved</p>
+                        <div class="col-sm-4 footer-left">
+                            <p>&copy; 2018 MoodyHacks All Rights Reserved</p>
                         </div><!-- col -->
-                        <div class="col-sm-6 footer-right">
+                        <div class="col-sm-4 footer-img">
+                            <img src="assets/img/moody.png" alt="">
+                        </div>
+                        <div class="col-sm-4 footer-right">
                             <p>Made in Austin, TX</p>
                         </div><!-- col -->
                     </div><!-- row -->
