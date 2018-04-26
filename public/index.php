@@ -145,6 +145,7 @@
         <div class="dumb-bar">
             <img src="assets/img/moody.png" alt="">
         </div>
+        <img src="assets/img/dmn.png" class="dmn" alt="Dallas Morning NEws innovation logo">
 
     <body class="">
     
@@ -156,7 +157,7 @@
                 <span>toggle menu</span>
             </button>
         </section><!-- nav -->
-
+        
         <section id="nav-expand">
             <ul class="nav-list">
                 <li class="nav-item"><p>MoodyHacks</p></li>
@@ -295,36 +296,71 @@
             <div class="container">
                <h2 class="section-lead">Logistics</h2>
                <div class="row">
-                    <div class="col-sm-4">
-                       <h3>Schedule</h3>
+                    <div class="col-sm-3">
+                       <h3>Saturday, Sept. 8th</h3>
                         <ul>
                             <li>
-                                <h3>3:00pm</h3>
-                                <p>Hacking begins</p>
+                                <h3>8:00am</h3>
+                                <p>Check-in begins</p>
                             </li>
                             <li>
-                                <h3>7:00pm</h3>
-                                <p>Dinner is served</p>
+                                <h3>9:30am</h3>
+                                <p>Opening ceremony</p>
                             </li>
                             <li>
-                                <h3>10:00pm</h3>
-                                <p>Hacking concludes for the day</p>
+                                <h3>10:00am</h3>
+                                <p>Brainstorming</p>
                             </li>
                             <li>
-                                <h3>9:00am</h3>
-                                <p>Hacking resumes/breakfast</p>
+                                <h3>12:00pm</h3>
+                                <p>Hacking / Workshops begin</p>
                             </li>
                             <li>
-                                <h3>11:00am</h3>
+                                <h3>1:00pm</h3>
                                 <p>Lunch is served</p>
                             </li>
                             <li>
-                                <h3>3:00pm</h3>
-                                <p>Awatds ceremony</p>
+                                <h3>9:00pm</h3>
+                                <p>Late night snacks</p>
+                            </li>
+                            <li>
+                                <h3>12:00am</h3>
+                                <p>Depart for the night</p>
+                            </li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="col-sm-3">
+                       <h3>Sunday, Sept. 9th</h3>
+                        <ul>
+                            <li>
+                                <h3>7:00am</h3>
+                                <p>Door prizes and breakfast</p>
+                            </li>
+                            <li>
+                                <h3>10:00am</h3>
+                                <p>Programming resumes</p>
+                            </li>
+                            <li>
+                                <h3>12:00pm</h3>
+                                <p>Lunch</p>
+                            </li>
+                            <li>
+                                <h3>2:00pm</h3>
+                                <p>Hacking concludes</p>
+                            </li>
+                            <li>
+                                <h3>2:30pm</h3>
+                                <p>Awards ceremony</p>
+                            </li>
+                            <li>
+                                <h3>6:00pm</h3>
+                                <p>Clear out building</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-6">
                         <h2>Location</h2>
                         <p>300 W Dean Keeton St, Austin, TX</p>
                         
