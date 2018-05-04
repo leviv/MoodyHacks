@@ -275,7 +275,7 @@
                     </div>
                     <div class="col-sm-4">
                         <h2><b>Step 3:</b> <br>Hack!</h2>
-                        <p>Teams will have the entire weekend to plan, execute and present their ideas. Workshops and mentors will help students develop key skills to enhance their projects along with learn new skills.</p>
+                        <p>Teams will have the entire weekend to plan, execute and present their ideas. Workshops and mentors will help students develop key skills to enhance their projects.</p>
                     </div>
                 </div><!-- row -->
                 
@@ -286,7 +286,7 @@
             <div class="container">
                <h2 class="section-lead">Video</h2>
                
-               <iframe width="100%" height="660px" src="https://www.youtube.com/embed/M6rNEG9uv_Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <iframe width="100%" height="660px" src="https://www.youtube.com/embed/HBfWwuXsKvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -430,7 +430,7 @@
                     </div>
                     <div class="col-sm-3">
                         <h2><i class="fas fa-graduation-cap"></i><br>What will be taught at the workshops?</h2>
-                        <p>Workshops will cover a broad range of topics, from coding to graphic design to pitching and idea to writing a strong lead. Whatever you want to learn, we've got someone to teach it!</p>
+                        <p>Workshops will cover a broad range of topics, from coding to graphic design to pitching an idea to writing a strong lead. Whatever you want to learn, we've got someone to teach it!</p>
                     </div>
                 </div><!-- row -->
                 
