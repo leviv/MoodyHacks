@@ -14,7 +14,6 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
        
-       
         <title>MoodyHacks</title>
 
         <!-- Bootstrap JS -->
@@ -25,7 +24,6 @@
         <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
         <!-- External Code -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -33,7 +31,6 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
         <!-- External Code -->
 		<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
@@ -45,11 +42,8 @@
         <!-- Font Awesome Icons -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
-
-
 		<!-- Custom CSS -->
         <link href="assets/css/styles.css" rel="stylesheet">
-
 
         <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -58,27 +52,12 @@
 <![endif]-->
 
     </head>
-
-    <!--
-<h1 class="project-title">Waxahachie Global High Yearbook</h1>
-
-    -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="MoodyHacks: The first ever UT journalism Hackathon!">
         <meta name="author" content="Levi Villarreal">
@@ -89,7 +68,6 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
        
-       
         <title>MoodyHacks</title>
 
         <!-- Bootstrap JS -->
@@ -100,7 +78,6 @@
         <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
         <!-- External Code -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -108,7 +85,6 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
         <!-- External Code -->
 		<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
@@ -120,11 +96,8 @@
         <!-- Font Awesome Icons -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
-
-
 		<!-- Custom CSS -->
         <link href="assets/css/styles.css" rel="stylesheet">
-
 
         <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -134,23 +107,8 @@
 
     </head>
 
-    <!--
-<h1 class="project-title">Waxahachie Global High Yearbook</h1>
-
-    -->
-
     <body class="">
-    
         <div id="dim-screen"></div>
-        <div class="dumb-bar">
-            <img src="assets/img/moody.png" alt="">
-        </div>
-        <img src="assets/img/dmn.png" class="dmn" alt="Dallas Morning NEws innovation logo">
-
-    <body class="">
-    
-        <div id="dim-screen"></div>
-
 
         <section id="nav">
             <button class="c-hamburger c-hamburger--htx c-hamburger--htra">
@@ -187,8 +145,6 @@
                     </a>
                 </li><!-- nav-item -->
             </ul><!-- nav-list -->
-            
-            
         </section><!-- nav-expand -->
 		
         <section id="hero-img">
@@ -235,6 +191,7 @@
 				</svg>
 				
 				<h1>MoodyHacks</h1>
+				<h4>Hack the Election</h4>
 				
 				<div class="container-details">
                     <img src="assets/img/logo.png" alt="The logo for MoodyHacks. The words 'Moody Hacks 2018' in burnt orange">
@@ -257,7 +214,7 @@
                     </div>
 				</div>
 				
-				<div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
+				<!--<div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div> -->
 			</div>
         </section>
         
@@ -290,76 +247,77 @@
             </div>
         </section>
 
-       
-        
         <section id="schedule" class="section-info">
             <div class="container">
                <h2 class="section-lead">Logistics</h2>
                <div class="row">
                     <div class="col-sm-3">
-                       <h3>Saturday, Sept. 8th</h3>
+                       <h3>Saturday, Nov. 3rd</h3>
                         <ul>
                             <li>
                                 <h3>8:00am</h3>
                                 <p>Check-in begins</p>
                             </li>
                             <li>
-                                <h3>9:30am</h3>
-                                <p>Opening ceremony</p>
+                                <h3>8:30am</h3>
+                                <p>Opening remarks/Guest Speakers</p>
                             </li>
                             <li>
-                                <h3>10:00am</h3>
+                                <h3>9:00am</h3>
                                 <p>Brainstorming</p>
                             </li>
                             <li>
-                                <h3>12:00pm</h3>
-                                <p>Hacking / Workshops begin</p>
-                            </li>
-                            <li>
-                                <h3>1:00pm</h3>
-                                <p>Lunch is served</p>
-                            </li>
-                            <li>
-                                <h3>9:00pm</h3>
-                                <p>Late night snacks</p>
-                            </li>
-                            <li>
-                                <h3>12:00am</h3>
-                                <p>Depart for the night</p>
-                            </li>
-                        </ul>
-                        
-                        
-                    </div>
-                    <div class="col-sm-3">
-                       <h3>Sunday, Sept. 9th</h3>
-                        <ul>
-                            <li>
-                                <h3>7:00am</h3>
-                                <p>Door prizes and breakfast</p>
+                                <h3>9:30pm</h3>
+                                <p>Hacking begin</p>
                             </li>
                             <li>
                                 <h3>10:00am</h3>
-                                <p>Programming resumes</p>
+                                <p>Workshop: <br>Jumpstart your day. More brainstorming, tool overview, Inspo</p>
                             </li>
                             <li>
-                                <h3>12:00pm</h3>
+                                <h3>10:30am</h3>
+                                <p>Workshops: <br>Rapid prototyping <br>Data / Data Viz <br>How they did it Inspo</p>
+                            </li>
+                            <li>
+                                <h3>12:30am</h3>
                                 <p>Lunch</p>
                             </li>
+                        </ul>
+                    </div><!-- col -->
+                    
+                    <div class="col-sm-3">
+                        <h3>Afternoon</h3>
+                        <ul>
                             <li>
-                                <h3>2:00pm</h3>
+                                <h3>12:30pm</h3>
+                                <p>Workshops: <br>Pitching your product <br>Programming <br>Web Dev</p>
+                            </li>
+                            <li>
+                                <h3>4:00pm</h3>
+                                <p>Snacks</p>
+                            </li>
+                            <li>
+                                <h3>7:00pm</h3>
+                                <p>Dinner</p>
+                            </li>
+                            <li>
+                                <h3>8:00pm</h3>
                                 <p>Hacking concludes</p>
                             </li>
                             <li>
-                                <h3>2:30pm</h3>
-                                <p>Awards ceremony</p>
+                                <h3>8:30pm</h3>
+                                <p>Hacking expo</p>
                             </li>
                             <li>
-                                <h3>6:00pm</h3>
-                                <p>Clear out building</p>
+                                <h3>9:30pm</h3>
+                                <p>Judging</p>
+                            </li>
+                            <li>
+                                <h3>10:30pm</h3>
+                                <p>Fin</p>
                             </li>
                         </ul>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-6">
                         <h2>Location</h2>
                         <p>300 W Dean Keeton St, Austin, TX</p>
@@ -371,26 +329,14 @@
                                 height: 350px;
                             }
                         </style>
-        
-                        <!-- 
-                            You need to include this script tag on any page that has a Google Map.
-
-                            The following script tag will work when opening this example locally on your computer.
-                            But if you use this on a localhost server or a live website you will need to include an API key. 
-                            Sign up for one here (it's free for small usage): 
-                                https://developers.google.com/maps/documentation/javascript/tutorial#api_key
-
-                            After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key. -->
-                               
-                        
 
                         <script type="text/javascript">
 
                         </script>
                         <div id="map"></div>
-                    </div>
-                </div>
-            </div>
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
         </section>
                 
         <section class="section-info" id="faq">
@@ -400,38 +346,38 @@
                     <div class="col-sm-3">
                         <h2><i class="fas fa-code"></i><br>What if I don't know how to code?</h2>
                         <p>Not all hackers code! In fact, you've found the perfect place and time to pick up new skills and concepts. There will be mentors, workshops, and tech talks to help ease you through the hackathon experience. Applications are not filtered based on experience.</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-exclamation"></i><br>This is my first hackathon. What do I do?</h2>
                         <p>That's amazing! Welcome. Hackathons are about learning and growth as much as they are about creation. Come with nothing but a desire to learn and problem solve and our workshops and brainstorming sessions will give you everything you need to succeed!</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-utensils"></i><br>Will food and drink be provided?</h2>
-                        <p>Yes! Moody Hacks will offer breakfast and coffee on Saturday and Sunday, and dinner on Saturday night. Belo is also right across the street from some of Austin's best restaurants, so you won't go hungry!</p>
-                    </div>
+                        <p>Yes! Moody Hacks will offer lunch and dinner on Saturday. Belo is also right across the street from some of Austin's best restaurants, so you won't go hungry!</p>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fab fa-stack-exchange"></i><br>What if I can't think of a topic?</h2>
                         <p>Don't worry! We will be hosting a brainstorming session Saturday morning where hackers can share ideas and join groups that interest them. </p>
-                    </div>
+                    </div><!-- col -->
                 </div><!-- row -->
                 
                 <div class="row">
                     <div class="col-sm-3">
                         <h2><i class="fas fa-building"></i><br>Can non-UT students participate?</h2>
                         <p>Unfortunately, no. For security reasons, Moody Hacks will only be open to current UT students of all majors this year, but we hope to expand in the future!</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-question"></i><br>What should I bring?</h2>
                         <p>A laptop, a charger, and a passion to problem-solve!</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-pencil-alt"></i><br>What can I create at Moody Hacks?</h2>
                         <p>Anything! Projects can include websites, mobile apps, written stories, videos, coloring books, and much more!</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-graduation-cap"></i><br>What will be taught at the workshops?</h2>
                         <p>Workshops will cover a broad range of topics, from coding to graphic design to pitching an idea to writing a strong lead. Whatever you want to learn, we've got someone to teach it!</p>
-                    </div>
+                    </div><!-- col -->
                 </div><!-- row -->
                 
                 <div class="row">
@@ -439,22 +385,21 @@
                     <div class="col-sm-3">
                         <h2><i class="fas fa-trophy"></i><br>What will the prizes be?</h2>
                         <p>Our sponsors will be offering a range of prizes and opportunities to teams with creative projects.</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-money-bill-alt"></i><br>Is there a cost to sign up?</h2>
                         <p>No! Participation in Moody Hacks is entirely free.</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-users"></i><br>Can we sign up as a team?</h2>
                         <p>Yes! Include your team members' names when you sign up and we'll be sure to group you together.</p>
-                    </div>
+                    </div><!-- col -->
                     <div class="col-sm-3">
                         <h2><i class="fas fa-thumbtack"></i><br>Can I leave and Come back?</h2>
                         <p>Yes! After you check in, feel free to run home and check on your dog as much as you need to.</p>
-                    </div>
+                    </div><!-- col -->
                 </div><!-- row -->
-            </div>
-            
+            </div><!-- container -->
         </section>
         
         <section class="section-info" id="contact">
@@ -518,24 +463,8 @@
             </footer>
         </section>
        
-
-       
-		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-			apiKey: "AIzaSyBGkr6OYH5DUcAJb1YHX0DV5iU-q_UipVI",
-			authDomain: "roundup-e2ebb.firebaseapp.com",
-			databaseURL: "https://roundup-e2ebb.firebaseio.com",
-			projectId: "roundup-e2ebb",
-			storageBucket: "roundup-e2ebb.appspot.com",
-			messagingSenderId: "76383249744"
-		  };
-		  firebase.initializeApp(config);
-		</script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/classie.js"></script>
 		<script src="assets/js/main.js"></script>
-			
     </body>
 </html>
